@@ -48,20 +48,20 @@
 	opacity: 1;
 }
 .da-slide h2{
-	color:#3f9ecf;
+	color:#398eba; /*3f9ecf;*/
 	width: 77%;
 	top:150px;
 	white-space: nowrap;
 	z-index: 10;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
-	font-size:4em;
+	text-shadow: 1px 1px 3px #8687c3;/*rgba(0,0,0,0.1);*/
+	font-size:350%;
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 }
 .da-slide p{
 	top:269px;
-	color: #FFFFFF;
-	font-size: 1.4em;
+	color: grey; /*#FFFFFF;*/
+	font-size: 1.7em;
 	height: 80px;
 	overflow: hidden;
 	font-family: 'Open Sans', sans-serif;
@@ -87,7 +87,7 @@
 	font-family: 'Open Sans', sans-serif;
 	border:2px solid #fff;
 	display:inline-block;
-	color:#ffffff;
+	/*color: #ffffff;*/
 	font-size:1em;
 	font-weight:600;
 	padding:1.1em 3.2em;
@@ -100,21 +100,31 @@
 	-o-transition: 0.5s all;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
-	-o-border-radius:5px;	
+	-o-border-radius:5px;
+
+		background-color: #daf1f1;
 }
  .da-link:hover{
- 	background-color:#296E6F;
+ 	background-color: #8fd5d6; /*#296E6F;*/
+	transform:scale(1.03);
+	-ms-transform:scale(1.03);
+	-moz-transform:scale(1.03);
+	-webkit-transform:scale(1.03);
+	-o-transform:scale(1.03);
+
  }
+ 
 .da-arrows{
 	-moz-user-select: none;
 	-webkit-user-select: none;
 }
+
 .da-arrows span{
 	position: absolute;
 	top: 50%;
 	cursor: pointer;
 	z-index: 2000;
-	opacity: 0;
+	opacity: 0.7;
 	height:60px;
 	width:60px;
 	-webkit-transition: opacity 0.4s ease-in-out-out 0.1s;
@@ -122,12 +132,24 @@
 	-o-transition: opacity 0.4s ease-in-out-out 0.1s;
 	-ms-transition: opacity 0.4s ease-in-out-out 0.1s;
 	transition: opacity 0.4s ease-in-out-out 0.1s;
+	transition: ease-out .6s;
 }
+
+.da-arrows span:hover{
+	-moz-transform:scale(1.05);
+	-webkit-transform:scale(1.05);
+	-o-transform:scale(1.05);
+	-ms-transform:scale(1.05);
+	transform:scale(1.05);
+	opacity: 0.9; transition: 0.4s;
+}
+
+
 .da-arrows-prev{
-	background: url(../images/prev.png) no-repeat 6px 0px;
+	background: url(../images/prev6.png) no-repeat 6px 0px;
 }
 .da-arrows-next{
-	background: url(../images/next.png) no-repeat 0px 0px;
+	background: url(../images/next6.png) no-repeat 0px 0px;
 }
 .da-slider:hover .da-arrows span{
 	opacity: 1;

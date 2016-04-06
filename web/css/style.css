@@ -62,15 +62,24 @@ img { border: 0; max-width: 100%; }
   width: 100%;
   position: relative;
 }
-
 #topnav .logo {
   float: left;
   padding: 1.57em 0em;
+  /*PV*/
+  opacity: .7;
+  transition: ease-out .5s;
 }
 #topnav .logo a {
   text-decoration: none;
   padding: 3px 7px;
   display:block;
+}
+
+/* PV */
+#topnav .logo:hover {
+	margin-left:3px;
+	opacity: .9; 
+	transition: .3s; 
 }
 
 #topnav #navbtn {
@@ -114,11 +123,12 @@ img { border: 0; max-width: 100%; }
 	border-bottom: 2px solid #49CBCD;
 	 color: #49CBCD;
 	 background: #EEE;
+	 padding-top: 25px;
 }
 #topnav nav ul li.active>a{
-	border-bottom: 2px solid #49CBCD;
+	border-bottom: 3px solid #49CBCD;
 	 color: #49CBCD;
-	 background: #EEE;
+	 background: #DDD;
 }
 
 /* menu block */
@@ -140,7 +150,8 @@ img { border: 0; max-width: 100%; }
 
 
 /* responsive styles */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px){
+	
   #topnav h1 {
 	padding: 1.4em 0em;
 	}
@@ -187,13 +198,20 @@ img { border: 0; max-width: 100%; }
 }
 /*---start-top-slider----*/
 .slider{
-	background:#49CBCD url(../images/bg2.png) no-repeat;
+	background: black url(../images/bg3.png) no-repeat;
 	background-size: 100% 100%;
+	background-transparent: 0.5;
 }
 /*---end-top-slider----*/
 /***************start-service************/
+
+.sevice{
+	padding-top:5px;
+}
+
 .service-grids{
 	margin:5em 0;
+	padding-bottom:15px;
 }
 .middle-grids {
 	margin: 2em 0;
@@ -214,6 +232,7 @@ img { border: 0; max-width: 100%; }
 } 
 .images_1_of_4 {
 	width: 21.6%;
+	transition: ease-out .6s;
 }
 .images_1_of_4  img{
 	max-width:100%;
@@ -262,10 +281,41 @@ img { border: 0; max-width: 100%; }
 	   background: #296E6F;
         text-decoration:none;
 }
+
+.images_1_of_4:hover{
+	-moz-transform:scale(1.03);
+	-webkit-transform:scale(1.03);
+	-o-transform:scale(1.03);
+	-ms-transform:scale(1.03);
+	transform:scale(1.03);
+	opacity: 0.7; transition: 0.4s;
+}
+
+.button1 {
+		padding:10px;
+		width:	20%;
+		font-size:0.9em;
+		font-family:'Open Sans', sans-serif;
+		background:#49CBCD;       
+        color : #fff;
+      	border-radius: 3px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		
+		transition: 0.5s all;
+		-webkit-transition: 0.5s all;
+		-moz-transition: 0.5s all;
+}
+.button1:hover{
+	   background: #296E6F;
+        text-decoration:none;
+}
+
 /***************end-servivice************/
 /***************start-portfolio************/
 .portfolio_main{
 	background: #eee;
+	margin-top: 15px;
 }
 .heading_h {
 	text-align: center;
@@ -289,6 +339,14 @@ img { border: 0; max-width: 100%; }
 	width: 30%;
 	margin-right:3.333%;
 	float: left;
+	opacity: .7;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+	
+	
 }
 .gallerylist img {
 	max-width:100%;
@@ -333,8 +391,19 @@ img { border: 0; max-width: 100%; }
 	transition: 0.9s;
 }
 .gallerylist-wrapper:hover span{
-	opacity: 1;	
+	opacity: 1;		
 }
+
+.gallerylist-wrapper:hover{
+	opacity: .9;
+	-moz-transform:scale(1.01);
+	-webkit-transform:scale(1.01);
+	-o-transform:scale(1.01);
+	-ms-transform:scale(1.01);
+	transform:scale(1.01);
+	transition: 0.3s;
+}
+
 .gallerylist-wrapper  a span img{
 	width:106px;
 	height:106px;
@@ -1331,6 +1400,7 @@ ul.sidebar_1 li {
 /*********responsive_media _queries********/
 @media only screen and (max-width: 1440px)
 {
+	
 	.contact input[type="text"], .contact textarea {
 	padding: 15px;
 	width: 42.37%;
@@ -1346,6 +1416,7 @@ ul.sidebar_1 li {
 /****/
 @media only screen and (max-width: 1366px)
 {	
+	
 	.wrap{
 		width:85%;
 	}
@@ -1364,6 +1435,7 @@ ul.sidebar_1 li {
 /****/
 @media only screen and (max-width: 1280px)
 {	
+
 	.wrap{
 		width:85%;
 	}
@@ -1467,6 +1539,9 @@ ul.sidebar_1 li {
 /****/
 @media only screen and (max-width: 768px)
 {
+	#topnav .logo {
+		width: 25%;
+	}
 	.images_1_of_4:nth-child(3),.images_1_of_4:nth-child(4)
 	{
 		display: none;
@@ -1592,6 +1667,7 @@ ul.sidebar_1 li {
 /****/
 @media only screen and (max-width: 640px)
 {
+	
 	.banner h2 {
 	padding: 0.6em 0em;
 	}
@@ -1734,6 +1810,10 @@ ul.sidebar_1 li {
 /****/
 @media only screen and (max-width: 320px)
 {
+	#topnav .logo {
+		width: 110px;
+	}
+	
 	.images_1_of_4 {
 	width: 100%;
 	float: none;
