@@ -385,7 +385,7 @@ button::-moz-focus-inner {
 	opacity: 0;
 }
 /****************/
-.my-mfp-zoom-in #small-dialog7 {
+.my-mfp-zoom-in #small-dialog7,.my-mfp-zoom-in #small-dialog8,.my-mfp-zoom-in #small-dialog9,.my-mfp-zoom-in #small-dialog10 {
 	opacity: 0;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
@@ -398,7 +398,7 @@ button::-moz-focus-inner {
 	transform: scale(0.8);
 }
 /* animate in */
-.my-mfp-zoom-in.mfp-ready #small-dialog7{
+.my-mfp-zoom-in.mfp-ready #small-dialog7,.my-mfp-zoom-in.mfp-ready #small-dialog8,.my-mfp-zoom-in.mfp-ready #small-dialog9,.my-mfp-zoom-in.mfp-ready #small-dialog10 {
 	opacity: 1;
 	-webkit-transform: scale(1);
 	-moz-transform: scale(1);
@@ -407,7 +407,7 @@ button::-moz-focus-inner {
 	transform: scale(1);
 }
 /* animate out */
-.my-mfp-zoom-in.mfp-removing #small-dialog7{
+.my-mfp-zoom-in.mfp-removing #small-dialog7,.my-mfp-zoom-in.mfp-removing #small-dialog8,.my-mfp-zoom-in.mfp-removing #small-dialog9,.my-mfp-zoom-in.mfp-removing #small-dialog10{
 	-webkit-transform: scale(0.8);
 	-moz-transform: scale(0.8);
 	-ms-transform: scale(0.8);
@@ -417,9 +417,11 @@ button::-moz-focus-inner {
 }
 /********end-pop_up_portfolio***/
 /********star_pop_up_team*******/
-#small-dialog7 {
+#small-dialog7, #small-dialog8, #small-dialog9, #small-dialog10 {
 	background: #FFF;
 	padding: 10px 15px;
+	border-radius: 20px;
+	border: 5px solid #3f9ecf;
 	text-align: left;
 	max-width:600px;
 	margin: 40px auto;
@@ -428,7 +430,7 @@ button::-moz-focus-inner {
 .pop_up7{
 	padding:20px;
 }
-.pop_up7 h2{
+.pop_up7 h2{1111111
 	padding:10px 0;
 	color: #000;
 	font-size:1em;
@@ -440,7 +442,15 @@ button::-moz-focus-inner {
 	font-size: 0.85em;
 	margin-bottom:10px;
 }
-/*******end_pop_up_team*********/
+
+.gmail, .linkedin{
+	width:40px;
+	position: relative;
+	top: 15px;
+}
+
+
+/*******end_pop_up_team************/
 /*Pricing table and price blocks*/
 .pricing-plans{
 	padding: 6em 0em;
