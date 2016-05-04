@@ -59,28 +59,30 @@
 		</div>
 		<!-- start-slider -->
 		<div class="slider" id="home"> 
+
 			<div class="wrap">
 				<!-- start-da-slider -->
+
 				<div id="da-slider" class="da-slider">
-							<div class="da-slide">
-								<h2><b>Be Sharps</b></h2>
-								<p> Una misma vocación ...el Disesño Web. </p>
-								<a href="#team" class="da-link scroll"> Nosotros </a>
-							</div>
-							<div class="da-slide">
-								<h2><b> Web Products </b></h2>
-								<p> Diseño - Desarrollo - Mantenimiento </p>
-								<a href="#portfolio" class="da-link scroll"> Productos </a>
-							</div>
-							<div class="da-slide">
-								<h2><b> Responsive Design </b></h2>
-								<p> HTML, CSS, JScript, MySQL, PHP, CMS </p>
-								<a href="#service" class="da-link scroll"> Servicios </a>
-							</div>
-							<nav class="da-arrows">
-								<span class="da-arrows-prev"></span>
-								<span class="da-arrows-next"></span>
-							</nav>
+					<div class="da-slide">
+						<h2><b>Software Developers</b></h2>
+						<p> Una misma vocación ...el Disesño Web. </p>
+						<a href="#team" class="da-link scroll"> Nosotros </a>
+					</div>
+					<div class="da-slide">
+						<h2><b> Web Products </b></h2>
+						<p> Diseño - Desarrollo - Mantenimiento </p>
+						<a href="#portfolio" class="da-link scroll"> Productos </a>
+					</div>
+					<div class="da-slide">
+						<h2><b> Responsive Design </b></h2>
+						<p> HTML, CSS, JScript, MySQL, PHP, CMS </p>
+						<a href="#service" class="da-link scroll"> Servicios </a>
+					</div>
+					<nav class="da-arrows">
+						<span class="da-arrows-prev"></span>
+						<span class="da-arrows-next"></span>
+					</nav>
 				</div>
 
 				<script type="text/javascript">
@@ -313,21 +315,26 @@
 		<div class="team" id="team">
 			<div class="wrap">
 		 		<div class="heading_h">
-					<h3><a href="#">B# Team</a></h3>
+					<h3><a href="#" id="subtitulo2" class="subtitulo2"><strong>B# Team</strong></a></h3>
 				</div>	
 
 			 	<div class="middle-grids">
 
 					<div class="grid_1_of_4 images_1_of_4">
-				 			<a class="popup-with-zoom-anim" href="#small-dialog7">
-				 				<span class="rollover"> </span>
-							</a>
-							<img src="web/images/pic1.jpg"  alt="Image 1"/>
-				 			<h3>Martín Muelas</h3>
-				 			<h4>Co-Founder & Developer</h4>
-				 			<p>Desarrollador de las inrtefaces de usuario. Es el más versátil, ya que colabora con el diseño web y con el backend</p>
+			 			<a class="popup-with-zoom-anim" href="#small-dialog7">
+			 				<span class="rollover"> </span>
+						</a>
+						<img src="web/images/pic1.jpg"  alt="Image 1"/>
+			 			<h3>Martín Muelas</h3>
+			 			<h4>Co-Founder & Developer</h4>
+			 			<p>Desarrollador de las inrtefaces de usuario. Es el más versátil, ya que colabora con el diseño web y con el backend</p>
 					</div>
+
+					
 					<div class="grid_1_of_4 images_1_of_4">
+						<br/>
+						<br/>
+						<br/>
 						<a class="popup-with-zoom-anim" href="#small-dialog8">
 			 				<span class="rollover"> </span>
 						</a>
@@ -346,6 +353,9 @@
 					 	<p>Responsable del desarrollo de la parte funcional de las aplicaciones web.Es el de mayor experiencia en programación del equipo </p>
 					</div>
 					<div class="grid_1_of_4 images_1_of_4">
+						<br/>
+						<br/>
+						<br/> 	
 						<a class="popup-with-zoom-anim" href="#small-dialog10">
 			 				<span class="rollover"> </span>
 						</a>
@@ -356,8 +366,12 @@
 					</div>
 					<div class="clear"> </div>
 					<br/>
-					<a href="#contact" class="scroll"><div class="button1"> Contácto..</div></a>
-				</div>					
+					<br/>
+					
+				</div>	
+
+					<a href="#contact" class="scroll"><div class="button1"> Contácto..</div></a>	
+					<br/>		
 			</div>
 		</div>
 

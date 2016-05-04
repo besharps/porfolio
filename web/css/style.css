@@ -215,6 +215,8 @@ img { border: 0; max-width: 100%; }
 }
 .middle-grids {
 	margin: 2em 0;
+	width: 70%;
+	margin-left: 22%;
 }
 .section {
 	clear: both;
@@ -323,7 +325,7 @@ img { border: 0; max-width: 100%; }
 }
 .heading_h h3 a{
 	font-size:2.4em;
-	color:#555658;
+	color:#49CBCD;
 }
 #gallerylist {
 	-webkit-box-sizing: border-box;
@@ -440,9 +442,10 @@ img { border: 0; max-width: 100%; }
 
 /**********end-portfolio********/
 /**********team************/
-.team
-{
+.team{
 	text-align: center;
+	background: url("../images/bg-bteam.png");
+	background-repeat: no-repeat;
 }
 .images_1_of_4 h4 {
 	color: #4E525D;
@@ -450,11 +453,12 @@ img { border: 0; max-width: 100%; }
 	font-weight: 600;
 	padding-bottom: 1em;
 }
+
 span.rollover {
 	-o-transition-duration: 1s;
 	-moz-transition-duration: 1s;
 	-webkit-transition: -webkit-transform 1s;
-	background: url(../images/puls.png) center center no-repeat rgba(0, 0, 0, 0.87);
+	/*background: url(../images/puls.png) center center no-repeat rgba(0, 0, 0, 0.87);*/
 	cursor: pointer;
 	height: 220px;
 	width: 221px;
@@ -472,7 +476,7 @@ span.rollover {
 	transition: all 0.3s ease-out;
 }
 span.rollover:hover {
-	opacity: 0.7;
+	opacity: 0;
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
 	-ms-transition: all 0.3s ease-out;
@@ -1992,12 +1996,14 @@ ul.sidebar_1 li {
 	border-color: 1px solid red;
 }
 
-
-
-
 #coment1{
-
 	color: white !important;
 	padding-bottom: 10% !important;
 	margin-bottom: 10%;
 }
+
+
+
+
+
+
