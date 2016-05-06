@@ -2,9 +2,10 @@
 
 session_start();
 
+
 // archivo que chequea la info y la envia por mail una vez verificado todos los campos
 
-if(isset($_POST['enviar']) ){
+
 
 	//Validación del nombre
 
@@ -22,7 +23,7 @@ if(isset($_POST['enviar']) ){
 
 			$email=$_POST["email"];
 
-			if( strlen(trim($email))<6 || strlen(trim($email))>40 ){
+			if( strlen(trim($email))<8 || strlen(trim($email))>50 ){
 				$e=4;	
 			}   // Email demasiado corto o largo
 
@@ -33,9 +34,9 @@ if(isset($_POST['enviar']) ){
 			// Validación del mensaje
 			if(isset($_POST["mensaje"])){
 
-				$mensaje=$_POST["mensaje"];
+				$mensaje=trim($_POST["mensaje"]);
 
-				if( strlen(trim($mensaje)) <2 || strlen(trim($mensaje)) >1000 ){
+				if( strlen($mensaje) <2 || strlen($mensaje) >1000 ){
 					$e=7;	
 				}  // Mensaje muy corto o largo				
 
@@ -91,13 +92,6 @@ if(isset($_POST['enviar']) ){
 	else{
 		 $e=1; // No está seteado el nombre		
 	}	
-
-}
-
-else{
-
-	$e=7;
-}
 
 
 $_SESSION['error']=$e;

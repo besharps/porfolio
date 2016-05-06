@@ -1,22 +1,18 @@
-﻿<?php
-//session_start();
-
-
-
-?>
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html>
 	<head>
 		<title>Be Sharps</title>
 		
 		<link rel="shortcut icon" href="favicon.png" type="image/png"/> 
-
-		
 		<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+		<!-- Versión compilada y comprimida del CSS de Bootstrap -->
+		<!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css"> -->
+		<!-- Versión compilada y comprimida del JavaScript de Bootstrap 
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script> -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 		<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet" type="text/css"/>
 		<link href="web/css/style.css" rel="stylesheet" type="text/css" media="all" />
 		<link rel="stylesheet" type="text/css" href="web/css/magnific-popup.css"/>
@@ -28,6 +24,7 @@
 		<script src="sweetalert/dist/sweetalert.min.js"></script> 
 		<link rel="stylesheet" type="text/css" href="sweetalert/dist/sweetalert.css">
 		<link rel="stylesheet" type="text/css" href="sweetalert/themes/twitter/twitter.css">
+		<script src="web/js/valida-form-contacto.js"></script>
 	</head>
 	
 
@@ -436,7 +433,7 @@
 				 		    <div class="get-intouch-left-address">
 								<p>Ciudad Autónoma de Buenos Aires</p>
 								<p>Argentina.</p>
-								<!-- <p>(011) 1234 567</p> -->
+								<p>(011) 15-6252-5277</p>
 								<p><a href="mailto:info@besharps.com.ar"> infobesharps@gmail.com</a></p>
 							</div>
 							<div class="clear"> </div>	
@@ -445,15 +442,21 @@
 
 
 						<div class="form">
-				  			<form method="POST" action="cont.php" >
-						    	<input type="text" name="nombre" class="textbox" placeholder=" Nombre" maxlength="50" />
-						    	<input type="email" class="textbox" placeholder="Email" name="email" maxlength="60" />
+				  			<form method="POST" action="cont.php" id="form-contacto" name="form-contacto">
+				  				<center> <div id="error-nombre" class="error" style="color:red;"></div> </center>
+						    	<span style="color: #996633; font-size: 20px;" >*</span><input type="text" id="inp-nombre" name="nombre" class="textbox" placeholder="Nombre" maxlength="50" />
+						    	<br/>
+						    	<center> <div id="error-email" class="error" style="color:red;"></div> </center>
+						    	<span style="color: #996633; font-size: 20px;" >*</span><input type="email" id="inp-email" class="textbox" placeholder="Email" name="email" maxlength="50" />
 									<div class="clear"> </div>
-							    <div>
-							    	<textarea name="mensaje" maxlength="1000"  > </textarea>
+								<center> <div id="error-msj" class="error" style="color:red;"></div> </center>	
+				  				<div>
+							    	<span style="color: #996633; font-size: 20px; float: left;" >*&nbsp;</span> <textarea id="inp-msj" name="mensaje" maxlength="1000" > </textarea>
 							    </div> 
-								<div class="button send_button">
-									<input type="submit" value="Enviar" name="enviar" />
+							    <span style="color: #996633; font-size: 15px; margin-top:0px; " ><b>(*) Campos obligatorios para enviar el formulario</b></span>
+
+								<div class="button send_button" style="margin-right: 5%" >
+									<input type="submit" value="Enviar" name="enviar" id="btn-enviar" />
 								</div>
 								<div class="clear"> </div>
 							</form>
@@ -522,46 +525,45 @@
 			if( isset($_SESSION['error']) ){
 			
 				if($_SESSION['error']==10){ ?>
-					<script type="text/javascript">swal({ title: "¡Gracias por su mensaje!", text: "Se cerrará en 2 segundos.", timer: 2000, showConfirmButton: false, type:"success", customClass:"ok" });     </script>
-					<?php $_SESSION['error']="ok";	//unset($_SESSION['error']);
+					<script type="text/javascript">swal({ title: "¡Gracias por su mensaje!", text: "B# Team", timer: 2000, showConfirmButton: false, type:"success", customClass:"ok" });     </script>
+					<?php $_SESSION['error']="ok";	
 				} 
 				if($_SESSION['error'] == 1){ ?>
 					<script type="text/javascript">swal({ title: "Debe agregar un nombre!!", text: "Se cerrará en 2 segundos.", timer: 2000, showConfirmButton: false, type:"error", customClass:"no" });</script> 
-					<?php $_SESSION['error']="ok";	//unset($_SESSION['error']);	
+					<?php $_SESSION['error']="ok";		
 				} 
 				if($_SESSION['error'] == 2){ ?>
 					<script type="text/javascript">swal({title: "Error en el nombre del formulario!!", text: "Se cerrará en 2 segundos.", timer: 2000, showConfirmButton: false, type:"error", customClass:"no"});</script> 
-					<?php $_SESSION['error']="ok";	//unset($_SESSION['error']);	
+					<?php $_SESSION['error']="ok";		
 				} 
 				if($_SESSION['error'] == 3){ ?>
 					<script type="text/javascript">swal({ title: "Debe agregar un email!!", text: "Se cerrará en 2 segundos.", timer: 2000, showConfirmButton: false, type:"error", customClass:"no" });</script> 
-					<?php $_SESSION['error']="ok";	//unset($_SESSION['error']);	
+					<?php $_SESSION['error']="ok";		
 				} 
 				if($_SESSION['error'] == 4){ ?>
 					<script type="text/javascript">swal({ title: "Error en la longuitud del email!!", text: "Se cerrará en 2 segundos.", timer: 2000, showConfirmButton: false, type:"error", customClass:"no" });</script> 
-					<?php $_SESSION['error']="ok";	//unset($_SESSION['error']);	
+					<?php $_SESSION['error']="ok";	
 				} 
 				if($_SESSION['error'] == 5){ ?>
 					<script type="text/javascript">swal({title: "Error en el formato del email!!", text: "Se cerrará en 2 segundos.", timer: 2000, showConfirmButton: false, type:"error", customClass:"no" });  </script> 
-					<?php $_SESSION['error']="ok";	//unset($_SESSION['error']);	
+					<?php $_SESSION['error']="ok";		
 				} 
 				if($_SESSION['error'] == 6){ ?>
 					<script type="text/javascript">swal({ title: "Debe agregar un mensaje!!", text: "Se cerrará en 2 segundos.", timer: 2000, showConfirmButton: false, type:"error", customClass:"no" });</script> 
-					<?php $_SESSION['error']="ok";	//unset($_SESSION['error']);
+					<?php $_SESSION['error']="ok";	
 				} 
 				if($_SESSION['error'] == 7){ ?>
 					<script type="text/javascript">swal({title: "Error en la longuitud del mensaje!!", text:"Se cerrará en 2 segundos.", timer: 2000, showConfirmButton: false, type:"error", customClass:"no" });</script> 	
-					<?php $_SESSION['error']="ok";	//unset($_SESSION['error']);
+					<?php $_SESSION['error']="ok";	
 				} 
 				if($_SESSION['error'] == 11){ ?>
 					<script type="text/javascript">swal({title:"Error al enviar su mensaje. Intente más tarde!!", text:"Se cerrará en 2 segundos.", timer: 2000, showConfirmButton: false, type:"error", customClass:"no" }); </script> 
-					<?php $_SESSION['error']="ok";	//unset($_SESSION['error']);	
-				} 	
+					<?php $_SESSION['error']="ok";		
+				}
+
+
 			}
-			//else{
-				//echo "sale por el ultimo else!!";
-				//echo $_SESSION['error'];
-			//}
+			
 			
 		?>
 
