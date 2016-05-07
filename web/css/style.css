@@ -197,10 +197,10 @@ img { border: 0; max-width: 100%; }
   }
 }
 /*---start-top-slider----*/
-.slider{
-	background: black url(../images/bg3.png) no-repeat;
-	background-size: 100% 100%;
-	background-transparent: 0.5;
+.slider {
+    background: white url(../images/bg3.png) no-repeat center;
+    background-size: contain;
+    /*background-transparent: 0.5;*/
 }
 /*---end-top-slider----*/
 /***************start-service************/
