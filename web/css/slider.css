@@ -85,9 +85,9 @@
 .da-slide .da-link{
 	top:75%; /*depends on p height*/
 	font-family: 'Open Sans', sans-serif;
-	border:2px solid #fff;
+	/*border:2px solid #fff;*/
 	display:inline-block;
-	/*color: #ffffff;*/
+	color: #ffffff;
 	font-size:1em;
 	font-weight:600;
 	padding:1.1em 3.2em;
@@ -102,10 +102,11 @@
 	-moz-border-radius: 5px;
 	-o-border-radius:5px;
 
-		background-color: #daf1f1;
+		background-color: #AAAAAA;
 }
  .da-link:hover{
- 	background-color: #8fd5d6; /*#296E6F;*/
+ 	background-color: #DDDDDD; /*#296E6F;*/
+ 	color: #666666;
 	transform:scale(1.03);
 	-ms-transform:scale(1.03);
 	-moz-transform:scale(1.03);

@@ -33,9 +33,9 @@ body {
 /*****/
 /* start header */
 
-::selection { background: #b9e9b9; color: #3f9ecf; }
-::-moz-selection { background: #b9e9b9; color: #3f9ecf; }
-::-webkit-selection { background: #b9e9b9; color: #3f9ecf; }
+::selection { background: #0068AD; color: #3f9ecf; }
+::-moz-selection { background: #0068AD; color: #3f9ecf; }
+::-webkit-selection { background: #0068AD; color: #3f9ecf; }
 
 br { display: block; line-height: 2.2em; } 
 
