@@ -145,7 +145,7 @@
 					   	<h2>B# Weather</h2>
 						<p>Aplicación web de pronóstico climático actual, diario o por horas, utilizando la geolocalización o la ubicación que usuario indique.</p>
 						<p class="pop_p">HTML5, CSS, Javascript, JQuery, AJAX, manejo de APIs<br/>
-						Link: <a target="blank" href="http://mmlabs.com.ar/clima-test/"> mmlabs.com.ar/clima </a></p>
+						Link: <a target="blank" href="http://mmlabs.com.ar/clima/"> mmlabs.com.ar/clima </a></p>
 					</div>		
 				</div>
 				<div id="small-dialog2" class="mfp-hide">
