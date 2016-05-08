@@ -63,7 +63,7 @@
 				<div id="da-slider" class="da-slider">
 					<div class="da-slide">
 						<h2><b>Software Developers</b></h2>
-						<p> Una misma vocación ...el Disesño Web. </p>
+						<p>	Distintos perfiles, misma vocación ...el Diseño Web  -  B#.</p>
 						<a href="#team" class="da-link scroll"> Nosotros </a>
 					</div>
 					<div class="da-slide">
@@ -73,7 +73,7 @@
 					</div>
 					<div class="da-slide">
 						<h2><b> Responsive Design </b></h2>
-						<p> HTML, CSS, JScript, MySQL, PHP, CMS </p>
+						<p> HTML, CSS, JavaScript, MySQL, PHP, CMS </p>
 						<a href="#service" class="da-link scroll"> Servicios </a>
 					</div>
 					<nav class="da-arrows">
@@ -103,7 +103,7 @@
 					<div class="images_1_of_4">
 				 		<img src="web/images/round1.png"/>
 				 		<h3> Custom Development </h3>
-				 		<p > Llevar cada trabajo de forma personalizada según la necesidad de cada cliente, desde el diseño y desarrollo, hasta el mantenimiento y su natural evolución. </p>
+				 		<p > Desarrollamos cada proyecto de forma original y personalizada según la necesidad de cada cliente, desde el diseño y desarrollo, hasta el mantenimiento y su natural evolución. </p>
 						<!-- <div class="button"><span><a href="#">Read More</a></span></div>  -->
 					</div>
 					<div class="images_1_of_4">
@@ -115,13 +115,13 @@
 					<div class="images_1_of_4">
 						<img src="web/images/round2.png"/>
 						<h3> Blog pages </h3>
-						<p> Trabajamos con gestores de contenidos (CMS), tanto blogs, Noticias, como sitios corporativos. </p>
+						<p> Utilizamos, desarrollamos y mantenemos gestores de contenidos (CMS), utilizados para blogs, Portales de noticias, como sitios corporativos. </p>
 						<!-- <div class="button"><span><a href="#">Read More</a></span></div>  -->
 					</div>
 					<div class="images_1_of_4">
 						<img src="web/images/round3.png"/>
 						<h3> Mobile friendly </h3>
-						<p> Todos nuestros trabajos están pensados para acceder desde cualquier dispositivo, compatibles para su uso desde cualquier tablet, smartphone o PC. </p>
+						<p> Trabajamos pensando en los distintos canales de comunicación OnLine, accediendo desde cualquier dispositivo compatible,  tablet, smartphone o PC. </p>
 						<!-- <div class="button"><span><a href="#">Read More</a></span></div>  -->
 					</div>
 					<div class="clear"> </div>
@@ -136,51 +136,53 @@
 		<div class="portfolio_main"id ="portfolio">
 			<div class="wrap">
 				<div class="heading_h">
-					<h3><a href="#">Porfolio</a></h3>
+					<h3><a href="#">Portfolio</a></h3>
 				</div>
 				<!--start-mfp -->	
 				<div id="small-dialog1" class="mfp-hide">
 					<div class="pop_up">
 					    <img src="web/images/BeWeather-med651x489.png"/>
 					   	<h2>B# Weather</h2>
-						<p>Aplicación web, que muestra la ubicación del usuario en un mapa de google (o cualquier ubicación que se señale en él) junto con el pronóstico actual de su zona y el pronóstico extendido día por día.</p>
-						<p class="pop_p">Sitio que desarrollamos utilizando HTML, HTML5, CSS, javascript, jquery, AJAX, Json, Bootstrap, PHP, obteniendo loos datos de Forecast (Api de clima) y utilizando api de GoogleMap. <br/>
-						sitio: <a target="blank" href="http://mmlabs.com.ar/clima-test/"> mmlabs.com.ar/clima </a></p>
+						<p>Aplicación web de pronóstico climático actual, diario o por horas, utilizando la geolocalización o la ubicación que usuario indique.</p>
+						<p class="pop_p">HTML5, CSS, JScript, JQuery, AJAX, manejo de APIs<br/>
+						Link: <a target="blank" href="http://mmlabs.com.ar/clima-test/"> mmlabs.com.ar/clima </a></p>
 					</div>		
 				</div>
 				<div id="small-dialog2" class="mfp-hide">
 				    <div class="pop_up2">
 					    <img src="web/images/BeNutri-med650x488.png"/>
 					   	<h2>Nutrisite</h2>
-						<p>Aplicación que calcula (previo login) las calorías que se deben consumir por día según si se quiere bajar, mantener o subir de peso y además llevar un control de estas, seleccionando los alimentos consumidos diariamente.</p>
-						<p class="pop_p">Desarrollado integramente por nuestro equipo, utilizando como herramientas Bootstrap, HTML, CSS, javascript y jquery para el diseño visual (lado cliente) que también es Mobile friendly. Otras tecnologías usadas: PHP y base de datos con MySql (lado servidor) <a href="http://mmlabs.com.ar/nutrisite">http://mmlabs.com.ar/nutrisite/</a></p>
+						<p>Contador de calorias online, utilidad para llevar un control de lo consumido y lo gastado diariamente hacia un objetivo determinado.</p>
+						<p class="pop_p">	Bootstrap, PHP, MySql.<br/>
+						Link: <a href="http://mmlabs.com.ar/nutrisite">http://mmlabs.com.ar/nutrisite/</a></p>
 					</div>
 				</div>
 				<div id="small-dialog3" class="mfp-hide">
 				    <div class="pop_up3">
 					   	<img src="web/images/BeCupCake-med650x488.png"/>
 					   	<h2>Cupcake house </h2>
-						<p>En este caso se usó una plantilla HTML que es mobile friendly (significa que puede verse sin problemas en un smartphone) adaptandola visual y funcionalmente a las necesidades del cliente.</p>
-						<p class="pop_p">Emprendimiento para la fabricación y envío de cupcakes.<br/><a href="http://www.cupcakehouse.com.ar/">http://www.cupcakehouse.com.ar/</a></p>
+						<p>	Catálogo Online de productos - emprendimiento de fabricacion y comercialización de Cupcakes.</p>
+						<p class="pop_p">HTML5, CSS3, Javascript, PHP.<br/>
+						Link: <a href="http://www.cupcakehouse.com.ar/">http://www.cupcakehouse.com.ar/</a></p>
 					</div>
 				</div>
 				<div id="small-dialog4" class="mfp-hide">
 				    <div class="pop_up4">
 					   	<img src="web/images/BeMAG-med650x485.png"/>
 					   	<h2>MAGennasi consultores </h2>
-						<p>Este es un ejemplo de un trabajo realizado en "Wordpress", tomando una plantilla que fue modificada según los requerimientos de nuestro cliente.</p>
-						<p class="pop_p">Consultores en Neurociencia <br/> <a href="http://www.magennasi.com.ar/">http://www.magennasi.com.ar/</a></p>
+						<p>	Consultores en Neurociencia - Blog y Portal de noticias.</p>
+						<p class="pop_p"> WordPress template, HTML, PHP, MySql<br/>
+						Link: <a href="http://www.magennasi.com.ar/">http://www.magennasi.com.ar/</a></p>
 					</div>
 				</div>
 				<div id="small-dialog5" class="mfp-hide">
 				    <div class="pop_up5">
 					   	<img src="web/images/BeKatib-med651x489.png"/>
-					   	 <h2> Katib rodados </h2>
-						 <p> Sito web Fabricación de rodados para niños entre otros.. </p>
-						<p class="pop_p"> sitio: 
-							<a target="blank" href="http://besharps.esy.es/katib-test/"> besharps.es/katib </a>
+					   	<h2> Katib rodados </h2>
+						<p> Sito web Fabricación de rodados para niños entre otros.. </p>
+						<p class="pop_p"> WordPress template, HTML, PHP, MySql<br/>
+						Link: <a target="blank" href="http://besharps.esy.es/katib-test/"> besharps.es/katib </a>
 						</p>
-						 <p class="pop_p"> tecnologías: WrodPress - PHP - HTML - CSS </p>
 					</div>
 				</div>
 				<div id="small-dialog6" class="mfp-hide">
@@ -193,12 +195,8 @@
 				</div>
 				<div id="small-dialog7" class="mfp-hide">
 				    <div class="pop_up7">
-					   	 <h2>Estudiante de Ingeniería Informática - UTN </h2>
-					   	 <h3>Técnico Superior en Programación - UTN Haedo </h3>
-					   	 <h4>Técnico Electrónico</h4>
-					   	 <p class="pop_p"><a href="mailto:martinmuelas@gmail.com"> <image src="web/images/gmail.png" alt="logo-gmail" class="gmail" /> martinmuelas@gmail.com</a> </p>
-						 <p class="pop_p"><a href="https://www.linkedin.com/in/martinmuelas">
-						 	<image src="web/images/linkedin.png" alt="logo-linkedin" class="linkedin" /> www.linkedin.com</a> 
+					   	 <h2>Desarrollador</h2>
+					   	 <p class="pop_p"><a href="mailto:martinmuelas@gmail.com"> <image src="web/images/gmail.png" alt="logo-gmail" class="gmail" /> martinmuelas@gmail.com</a> </p> 
 						 </p>
 					</div>
 				</div>
@@ -323,22 +321,22 @@
 						</a>
 						<img src="web/images/pic1.jpg"  alt="Image 1"/>
 			 			<h3>Martín Muelas</h3>
-			 			<h4>Co-Founder & Developer</h4>
-			 			<p>Desarrollador de las inrtefaces de usuario. Es el más versátil, ya que colabora con el diseño web y con el backend</p>
+			 			<h4>Desarrollador</h4>
+			 			<p>Colabora con el diseño web y con el backend.</p>
 					</div>
 
 					
 					<div class="grid_1_of_4 images_1_of_4">
+						<!-- <br/>
 						<br/>
-						<br/>
-						<br/>
+						<br/> -->
 						<a class="popup-with-zoom-anim" href="#small-dialog8">
 			 				<span class="rollover"> </span>
 						</a>
 						 <img src="web/images/pic2.jpg"/>
 						 <h3>Ramiro Oviedo</h3>
-						 <h4>Co-Founder & Designer</h4>
-						 <p>Es el encargado del diseño de todo lo relacionado con imágenes, además de ser programador. Y por supuesto es el creativo del grupo</p>
+						 <h4>Diseñador Web</h4>
+						 <p>Es el encargado del diseño de todo lo relacionado con imágenes, además de ser programador. Y por supuesto es el creativo del grupo.</p>
 					</div>
 					<div class="grid_1_of_4 images_1_of_4">
 						<a class="popup-with-zoom-anim" href="#small-dialog9">
@@ -346,20 +344,20 @@
 						</a>
 						 <img src="web/images/pic3.jpg"/>
 					 	<h3>Gabriel Sanchez</h3>
-					 	<h4>Co-Founder & Backend</h4>
-					 	<p>Responsable del desarrollo de la parte funcional de las aplicaciones web.Es el de mayor experiencia en programación del equipo </p>
+					 	<h4>Desarrollador Backend</h4>
+					 	<p>Responsable del desarrollo de la parte funcional de las aplicaciones web. Es el de mayor experiencia en programación del equipo.</p>
 					</div>
 					<div class="grid_1_of_4 images_1_of_4">
+						<!-- <br/>
 						<br/>
-						<br/>
-						<br/> 	
+						<br/>  -->	
 						<a class="popup-with-zoom-anim" href="#small-dialog10">
 			 				<span class="rollover"> </span>
 						</a>
 						 <img src="web/images/pic8.jpg"/>
 						 <h3>Pablo Vivona</h3>
-						 <h4>Co-Founder & Developer</h4>
-						 <p>Hábil desarrollador y tester de gran experiencia, es el que tiene encomendado todo lo que se refiere a la logística del grupo</p>
+						 <h4>Agilista & QA</h4>
+						 <p>Defensor del dinamismo y las metodologías ágiles de trabajo, experiencia orientada a la calidad y pruebas de los productos web.</p>
 					</div>
 					<div class="clear"> </div>
 					<br/>
@@ -371,46 +369,6 @@
 					<br/>		
 			</div>
 		</div>
-
-
-		<!-- text-slider 
-					
-			<div id="clientes">		
-				 <div class="wmuSlider example1">
-				 	<div class="wrap">
-					   <article style="position: absolute; width:64%; opacity: 0;"> 
-						   	
-							<div class="cont span_2_of_3">
-								    <h4>Que dicen nuestros clientes</h1>
-									<p>Lorem ipsum is simply dummy text of the printing and typesetting industry.Lorem ipsum has been the printing and typesetting industry's standard dummy text ever since the 500,s when an unknown printer took a gellery of type.</p>
-								  	<span><a href="#">John Dove</a></span>
-								 
-							</div>
-						</article>
-						 <article style="position: absolute; width:64%; opacity: 0;"> 
-						   	<div class="cont span_2_of_3">
-								    <h4>Que dicen nuestros clientes</h4>
-								    <p>Lorem ipsum is simply dummy text of the printing and typesetting industry.Lorem ipsum has been the printing and typesetting industry's standard dummy text ever since the 500,s when an unknown printer took a gellery of type.</p>
-								   <span><a href="#">John Dove</a></span>
-							</div>
-						 </article>
-						 <article style="position: absolute; width:64%; opacity: 0;"> 
-						   	<div class="cont span_2_of_3">
-								    <h4>Que dicen nuestros clientes</h4>
-								    <p>Lorem ipsum is simply dummy text of the printing and typesetting industry.Lorem ipsum has been the printing and typesetting industry's standard dummy text ever since the 500,s when an unknown printer took a gellery of type.</p>
-								    <span><a href="#">John Dove</a></span>
-							</div>
-						 </article>
-				 
-		                  <script src="web/js/jquery.wmuSlider.js"></script> 
-							<script>
-		       				     $('.example1').wmuSlider();         
-		   					</script> 	           	      
-			         </div>
-			     </div>
-			</div>     
-
-		  text-slider -->
 		 
 		 
 		 <!-- start-contact --> 
