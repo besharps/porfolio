@@ -144,7 +144,7 @@
 					    <img src="web/images/BeWeather-med651x489.png"/>
 					   	<h2>B# Weather</h2>
 						<p>Aplicación web de pronóstico climático actual, diario o por horas, utilizando la geolocalización o la ubicación que usuario indique.</p>
-						<p class="pop_p">HTML5, CSS, JScript, JQuery, AJAX, manejo de APIs<br/>
+						<p class="pop_p">HTML5, CSS, Javascript, JQuery, AJAX, manejo de APIs<br/>
 						Link: <a target="blank" href="http://mmlabs.com.ar/clima-test/"> mmlabs.com.ar/clima </a></p>
 					</div>		
 				</div>
@@ -242,7 +242,7 @@
 						<div id="gallerylist">
 							<div class="gallerylist-wrapper">				
 								<a class="popup-with-zoom-anim" href="#small-dialog1">
-									<img src="web/images/pop7.png" alt="_b#weather"/>
+									<img src="web/images/BeWeather-sma350x263.png" alt="_b#weather"/>
 								</a>
 							</div>
 							<div class="gallerylist-wrapper">				
