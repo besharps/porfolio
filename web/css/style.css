@@ -82,6 +82,10 @@ img { border: 0; max-width: 100%; }
 	transition: .3s; 
 }
 
+.logo img {
+	width: 50%;
+}
+
 #topnav #navbtn {
   display: none;
   float: right;
