@@ -154,7 +154,7 @@
 					   	<h2>Nutrisite</h2>
 						<p>Contador de calorias online, utilidad para llevar un control de lo consumido y lo gastado diariamente hacia un objetivo determinado.</p>
 						<p class="pop_p">	Bootstrap, PHP, MySql.<br/>
-						Link: <a href="http://mmlabs.com.ar/nutrisite">http://mmlabs.com.ar/nutrisite/</a></p>
+						Link: <a target="blank" href="http://mmlabs.com.ar/nutrisite">http://mmlabs.com.ar/nutrisite/</a></p>
 					</div>
 				</div>
 				<div id="small-dialog3" class="mfp-hide">
@@ -163,7 +163,7 @@
 					   	<h2>Cupcake house </h2>
 						<p>	Catálogo Online de productos - emprendimiento de fabricacion y comercialización de Cupcakes.</p>
 						<p class="pop_p">HTML5, CSS3, Javascript, PHP.<br/>
-						Link: <a href="http://www.cupcakehouse.com.ar/">http://www.cupcakehouse.com.ar/</a></p>
+						Link: <a target="blank" href="http://www.cupcakehouse.com.ar/">http://www.cupcakehouse.com.ar/</a></p>
 					</div>
 				</div>
 				<div id="small-dialog4" class="mfp-hide">
@@ -172,7 +172,7 @@
 					   	<h2>MAGennasi consultores </h2>
 						<p>	Consultores en Neurociencia - Blog y Portal de noticias.</p>
 						<p class="pop_p"> WordPress template, HTML, PHP, MySql<br/>
-						Link: <a href="http://www.magennasi.com.ar/">http://www.magennasi.com.ar/</a></p>
+						Link: <a target="blank" href="http://www.magennasi.com.ar/">http://www.magennasi.com.ar/</a></p>
 					</div>
 				</div>
 				<div id="small-dialog5" class="mfp-hide">
