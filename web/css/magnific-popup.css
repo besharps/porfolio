@@ -399,7 +399,7 @@ button::-moz-focus-inner {
 }
 /* animate in */
 .my-mfp-zoom-in.mfp-ready #small-dialog7,.my-mfp-zoom-in.mfp-ready #small-dialog8,.my-mfp-zoom-in.mfp-ready #small-dialog9,.my-mfp-zoom-in.mfp-ready #small-dialog10 {
-	opacity: 1;
+	opacity: 0.6;
 	-webkit-transform: scale(1);
 	-moz-transform: scale(1);
 	-ms-transform: scale(1);
@@ -430,7 +430,7 @@ button::-moz-focus-inner {
 .pop_up7{
 	padding:20px;
 }
-.pop_up7 h2{1111111
+.pop_up7 h2{
 	padding:10px 0;
 	color: #000;
 	font-size:1em;
@@ -441,6 +441,9 @@ button::-moz-focus-inner {
 	color: #999;
 	font-size: 0.85em;
 	margin-bottom:10px;
+}
+.pop_up7: not(.gmail){
+	opacity: 0.6;
 }
 
 .gmail, .linkedin{

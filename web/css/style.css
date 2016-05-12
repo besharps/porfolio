@@ -202,25 +202,28 @@ img { border: 0; max-width: 100%; }
 }
 /*---start-top-slider----*/
 .slider {
-    background: white url(../images/bg3.png) no-repeat center;
-    background-size: contain;
-    /*background-transparent: 0.5;*/
+    background: white url(../images/mouse_light.png) no-repeat center;
+    background-size: 100% 100%;
 }
 /*---end-top-slider----*/
 /***************start-service************/
 
 .sevice{
 	padding-top:5px;
+	border:4px solid #0099FF;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
 }
 
 .service-grids{
-	margin:5em 0;
-	padding-bottom:15px;
+	margin-top:5em;
+	margin-bottom: 2%;
+	padding-bottom:0px;
 }
 .middle-grids {
 	margin: 2em 0;
-	width: 70%;
-	margin-left: 22%;
+	width: 100%;
+	/*margin-left: 22%;*/
 }
 .section {
 	clear: both;
@@ -308,6 +311,7 @@ img { border: 0; max-width: 100%; }
 		-moz-border-radius: 3px;
 		-webkit-border-radius: 3px;
 		margin: auto;
+		margin-bottom: 0px;
 		text-align: center;
 		transition: 0.5s all;
 		-webkit-transition: 0.5s all;
@@ -322,13 +326,13 @@ img { border: 0; max-width: 100%; }
 /***************start-portfolio************/
 .portfolio_main{
 	background: #eee;
-	margin-top: 15px;
+	margin-top: 0px;
 }
 .heading_h {
 	text-align: center;
 	padding: 2.4em  0em;
 }
-.heading_h h3 a{
+.heading_h h3 a, #subtitulo1{
 	font-size:2.4em;
 	color:#0099FF;
 }
@@ -449,11 +453,11 @@ img { border: 0; max-width: 100%; }
 /**********team************/
 .team{
 	text-align: center;
-	background: url("../images/bg-bteam.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: contain;
+	background: black;
+	border:5px solid #4E525D;
 }
+
+
 .images_1_of_4 h4 {
 	color: #4E525D;
 	font-size: 0.9em;
@@ -573,7 +577,7 @@ color:#C0B9CD;
 /*************end-slider**********/
 /************start-contact*********/
 .contact{
-	background:#000 url(../images/cbg2.png) no-repeat;
+	background:#000 url(../images/laptop.png) no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -594,12 +598,12 @@ color:#C0B9CD;
 	width:49%;
 }
 .para-contact h4{
-	color:#F2F2F2;
+	color:#000000;
 	font-size:1.8em;
 }
 .para-contact p{
 	font-size:0.990em;
-	color:#FFFFFF;
+	color:#000000;
 	line-height:2em;
 	font-family : 'Open Sans', sans-serif;
 	margin-top:0.5em;
@@ -609,14 +613,14 @@ color:#C0B9CD;
 	padding: 2em 0 1em;
 }
 .contact h2{
-	color:#F2F2F2;
+	color:#000000;
 	font-size:2.5em;
-	padding: 2em 0em 0.7em 0em;
+	padding: 1.5em 0em 0.7em 0em;
 	text-align: center;
 }
 .get-intouch-left-address p,.get-intouch-left-address p a{
-	color: #FFFFFF;
-	font-size: 0.95em;
+	color: #000000;
+	font-size: 18px;
 	line-height:1.6em;
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
@@ -627,7 +631,7 @@ color:#C0B9CD;
 	border-radius: 2px;
 }
 .get-intouch-left-address p a:hover{
-	color:#fff;
+	color:#0068AD;
 }
 .contact input[type="text"],.contact input[type="email"],.contact textarea{
 	padding: 15px;
@@ -1030,7 +1034,7 @@ li.google a span:hover {
 	/*padding: 10px 50px;*/
 	border: none;
 	font-family: 'Open Sans', sans-serif;
-	margin-top: 20px;
+	margin-top: 0px;
 	-webkit-appearance: none;
 }
 .button input[type="submit"]:hover,.send_button input[type="submit"]:hover
@@ -1415,6 +1419,7 @@ ul.sidebar_1 li {
 	.contact input[type="text"], .contact input[type="email"], .contact textarea {
 	padding: 15px;
 	width: 88%;
+	opacity: 0.6;
 	}
 	.links h3{
 	margin-right: 2%;
@@ -1430,10 +1435,12 @@ ul.sidebar_1 li {
 	
 	.wrap{
 		width:95%;
+		padding: 15px;
 	}
 	.contact input[type="text"],.contact input[type="text"], .contact textarea {
 	padding: 15px;
 	width: 88%;
+	opacity: 0.6;
 
 	}
 	.links h3{
@@ -1450,10 +1457,12 @@ ul.sidebar_1 li {
 
 	.wrap{
 		width:85%;
+		padding: 15px;
 	}
 	.contact input[type="text"],.contact input[type="email"], .contact textarea {
 	padding: 15px;
 	width: 42%;
+	opacity: 0.6;
 	}
 	.links h3{
 	margin-right: 0.6%;
@@ -1470,11 +1479,13 @@ ul.sidebar_1 li {
 @media only screen and (max-width: 1024px)
 {	
 	.wrap{
-		width:90%;
+		width:85%;
+		padding: 15px;
 	}
 	.contact input[type="text"], .contact input[type="email"], .contact textarea {
 	padding: 12px;
 	width: 95%;
+	opacity: 0.6;
 	}
 	.links h3 {
 	margin-right: 4%;

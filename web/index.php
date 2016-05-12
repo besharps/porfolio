@@ -39,7 +39,7 @@
 		        		<ul>
 							<li class="active"> <a class="scroll" href="#home"> Home </a></li>
 							<li> <a class="scroll" href="#service"> Servicios </a></li>
-							<li> <a class="scroll" href="#portfolio"> Porfolio </a></li>
+							<li> <a class="scroll" href="#portfolio"> Portfolio </a></li>
 							<li> <a class="scroll" href="#team"> Equipo </a></li>
 							<li> <a target="blank" href="http://besharps.wordpress.com"> News </a></li> <!--blogsingle.html-->
 							<li> <a  class="scroll" href="#contact"> Contacto </a></li>
@@ -63,7 +63,7 @@
 				<div id="da-slider" class="da-slider">
 					<div class="da-slide">
 						<h2><b>Software Developers</b></h2>
-						<p>	Distintos perfiles, misma vocación ...el Diseño Web  -  B#.</p>
+						<p>	Distintos perfiles, misma vocación ...el Diseño Web  -  B# -</p>
 						<a href="#team" class="da-link scroll"> Nosotros </a>
 					</div>
 					<div class="da-slide">
@@ -73,7 +73,7 @@
 					</div>
 					<div class="da-slide">
 						<h2><b> Responsive Design </b></h2>
-						<p> HTML, CSS, JavaScript, MySQL, PHP, CMS </p>
+						<p> HTML, CSS, JavaScript, MySQL, PHP, CMS, Bootstrap </p>
 						<a href="#service" class="da-link scroll"> Servicios </a>
 					</div>
 					<nav class="da-arrows">
@@ -99,6 +99,7 @@
 		<!-- service -->
 		<div  class="sevice" id="service">
 			<div class="wrap">
+					<center><h2 id="subtitulo1"><strong>Servicios</strong></h2></center>
 				<div class="service-grids" >
 					<div class="images_1_of_4">
 				 		<img src="web/images/round1.png"/>
@@ -211,7 +212,7 @@
 					</div>
 				</div>
 				<div id="small-dialog9" class="mfp-hide">
-				    <div class="pop_up7">
+				    <div class="pop_up7" style="">
 					   	 <h2>Técnico Superior en Programación - UTN Haedo </h2>
 					   	 <h3>Técnico Electrónico </h3>
 					   	 <br>
@@ -301,7 +302,6 @@
 				</script>	
 					
 			</div>
-			<!-- </div> borrado por mi -->
 		</div>
 
 		<!--portfolio-->
@@ -327,9 +327,6 @@
 
 					
 					<div class="grid_1_of_4 images_1_of_4">
-						<!-- <br/>
-						<br/>
-						<br/> -->
 						<a class="popup-with-zoom-anim" href="#small-dialog8">
 			 				<span class="rollover"> </span>
 						</a>
@@ -344,13 +341,10 @@
 						</a>
 						 <img src="web/images/pic3.jpg"/>
 					 	<h3>Gabriel Sanchez</h3>
-					 	<h4>Desarrollador Backend</h4>
-					 	<p>Responsable del desarrollo de la parte funcional de las aplicaciones web. Es el de mayor experiencia en programación del equipo.</p>
+					 	<h4>Desarrollador</h4>
+					 	<p>Responsable del desarrollo de la parte funcional de las aplicaciones web. Uno de los que tiene mayor experiencia en programación del equipo.</p>
 					</div>
 					<div class="grid_1_of_4 images_1_of_4">
-						<!-- <br/>
-						<br/>
-						<br/>  -->	
 						<a class="popup-with-zoom-anim" href="#small-dialog10">
 			 				<span class="rollover"> </span>
 						</a>
@@ -365,7 +359,7 @@
 					
 				</div>	
 
-					<a href="#contact" class="scroll"><div class="button1"> Contácto..</div></a>	
+					<a href="#contact" class="scroll"><div class="button1"> Contacto..</div></a>	
 					<br/>		
 			</div>
 		</div>
@@ -383,9 +377,8 @@
 						 	<div class="social_2 social_3">	
 					           <ul>	
 								    <li class="facebook"><a href="https://www.facebook.com/profile.php?id=100011723567037"><span></span></a></li>
-								    <li><span id="coment1" style="color: white">Siganos en Facebook </span></li>
-								   <!--  <li class="twitter"><a href="#"><span> </span></a></li>	 	
-									<li class="google"><a href="#"><span> </span></a></li> -->
+								   <!--  <li class="twitter"><a href="#"><span> </span></a></li> -->	 	
+									<li class="google"><a href=""><span> </span></a></li> 
 							  </ul>
 				 		    </div>
 				 		    <div class="get-intouch-left-address">
@@ -402,16 +395,16 @@
 						<div class="form">
 				  			<form method="POST" action="cont.php" id="form-contacto" name="form-contacto">
 				  				<center> <div id="error-nombre" class="error" style="color:red;"></div> </center>
-						    	<span style="color: #996633; font-size: 20px;" >*</span><input type="text" id="inp-nombre" name="nombre" class="textbox" placeholder="Nombre" maxlength="50" />
+						    	<span style="color: #0099FF; font-size: 20px;" >*</span><input type="text" id="inp-nombre" name="nombre" class="textbox" placeholder="Nombre" maxlength="50" />
 						    	<br/>
 						    	<center> <div id="error-email" class="error" style="color:red;"></div> </center>
-						    	<span style="color: #996633; font-size: 20px;" >*</span><input type="email" id="inp-email" class="textbox" placeholder="Email" name="email" maxlength="50" />
+						    	<span style="color: #0099FF; font-size: 20px;" >*</span><input type="email" id="inp-email" class="textbox" placeholder="Email" name="email" maxlength="50" />
 									<div class="clear"> </div>
 								<center> <div id="error-msj" class="error" style="color:red;"></div> </center>	
 				  				<div>
-							    	<span style="color: #996633; font-size: 20px; float: left;" >*&nbsp;</span> <textarea id="inp-msj" name="mensaje" maxlength="1000" > </textarea>
+							    	<span style="color: #0099FF; font-size: 20px; float: left;" >*&nbsp;</span> <textarea id="inp-msj" name="mensaje" maxlength="1000" > </textarea>
 							    </div> 
-							    <span style="color: #996633; font-size: 15px; margin-top:0px; " ><b>(*) Campos obligatorios para enviar el formulario</b></span>
+							    <p style="color:#0099FF ; font-size: 18px; margin-top: 10%; " ><b>(*) Campos obligatorios para enviar el formulario</b></p>
 
 								<div class="button send_button" style="margin-right: 5%" >
 									<input type="submit" value="Enviar" name="enviar" id="btn-enviar" />
