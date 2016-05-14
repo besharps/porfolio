@@ -202,7 +202,7 @@ img { border: 0; max-width: 100%; }
 }
 /*---start-top-slider----*/
 .slider {
-    background: white url(../images/mouse_light.png) no-repeat center;
+    background: white url(../images/science.png) no-repeat center;
     background-size: 100% 100%;
 }
 /*---end-top-slider----*/
@@ -211,7 +211,7 @@ img { border: 0; max-width: 100%; }
 .sevice{
 	padding-top:5px;
 	border:4px solid #0099FF;
-	margin-bottom: 0px;
+	margin-top: 10%;
 	padding-bottom: 0px;
 }
 
@@ -588,7 +588,8 @@ color:#C0B9CD;
 .form{
 	float: right;
 	width: 49%;
-	margin: 2em 0;
+	margin-top: 2em;
+	margin-right: 2%;
 	display: block;
 }
 .para-contact {
@@ -1484,7 +1485,7 @@ ul.sidebar_1 li {
 	}
 	.contact input[type="text"], .contact input[type="email"], .contact textarea {
 	padding: 12px;
-	width: 95%;
+	width: 88%;
 	opacity: 0.6;
 	}
 	.links h3 {

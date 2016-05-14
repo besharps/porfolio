@@ -63,7 +63,7 @@
 				<div id="da-slider" class="da-slider">
 					<div class="da-slide">
 						<h2><b>Software Developers</b></h2>
-						<p>	Distintos perfiles, misma vocación ...el Diseño Web  -  B# -</p>
+						<p>	Distintos perfiles, una misma vocación ...el Diseño Web  -  B# -</p>
 						<a href="#team" class="da-link scroll"> Nosotros </a>
 					</div>
 					<div class="da-slide">

@@ -60,7 +60,7 @@
 	font-family: 'Open Sans', sans-serif;
 }
 .da-slide p{
-	top:65%;
+	top:50%;
 	color: black; /*#FFFFFF;*/
 	font-size: 2em;
 	height: 80px;
@@ -170,10 +170,10 @@
 	background-position: top right;
 }
 .da-arrows span.da-arrows-prev{
-	left: 15px;
+	left: 20px;
 }
 .da-arrows span.da-arrows-next{
-	right: 15px;
+	right: 20px;
 }
 .da-slide-current h2,
 .da-slide-current p,
