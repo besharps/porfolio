@@ -3,10 +3,15 @@
 <html>
 	<head>
 		<title>Be Sharps</title>
+		
 		<link rel="shortcut icon" href="favicon.png" type="image/png"/> 
 		<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+		<!-- Versión compilada y comprimida del CSS de Bootstrap -->
+		<!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css"> -->
+		<!-- Versión compilada y comprimida del JavaScript de Bootstrap 
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script> -->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 		<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet" type="text/css"/>
 		<link href="web/css/style.css" rel="stylesheet" type="text/css" media="all" />
@@ -159,7 +164,7 @@
 					   	<h2>Cupcake house </h2>
 						<p>	Catálogo Online de productos - emprendimiento de fabricacion y comercialización de Cupcakes.</p>
 						<p class="pop_p">HTML5, CSS3, Javascript, PHP.<br/>
-						Link: <a target="blank" href="http://mmlabs.com.ar/cupcakehouse/">http://www.cupcakehouse.com.ar/</a></p>
+						Link: <a target="blank" href="http://www.cupcakehouse.com.ar/">http://www.cupcakehouse.com.ar/</a></p>
 					</div>
 				</div>
 				<div id="small-dialog4" class="mfp-hide">
@@ -174,7 +179,7 @@
 				<div id="small-dialog5" class="mfp-hide">
 				    <div class="pop_up5">
 					   	<img src="web/images/BeKatib-med651x489.png"/>
-					   	<h2>Katib rodados </h2>
+					   	<h2> Katib rodados </h2>
 						<p> Sito web Fabricación de rodados para niños entre otros.. </p>
 						<p class="pop_p"> WordPress template, HTML, PHP, MySql<br/>
 						Link: <a target="blank" href="http://besharps.esy.es/katib-test/"> besharps.es/katib </a>
@@ -183,7 +188,7 @@
 				</div>
 				<div id="small-dialog6" class="mfp-hide">
 				   <div class="pop_up6">
-				   		<img src="web/images/logo.png"/>
+				   		<img src="web/images/BeSharpsLogo-trans-sma50x200.png"/>
 				   	 	<h2> </h2>
 					 	<p>En desarrollo...</p>
 					 	<p class="pop_p"></p>
@@ -193,6 +198,7 @@
 				    <div class="pop_up7">
 					   	 <h2>Desarrollador</h2>
 					   	 <p class="pop_p"><a href="mailto:martinmuelas@gmail.com"> <image src="web/images/gmail.png" alt="logo-gmail" class="gmail" /> martinmuelas@gmail.com</a> </p> 
+						 </p>
 					</div>
 				</div>
 				<div id="small-dialog8" class="mfp-hide">

@@ -1,9 +1,5 @@
-/*
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
-*/
+/*General style*/
+
 /* reset */
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
 article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
@@ -42,7 +38,7 @@ body {
 /*--menu--*/
 .nav-item {
     float:left;
-    *display:inline;
+    display:inline;
     zoom:1;
 }
 .nav-item a {
@@ -52,9 +48,9 @@ body {
     background:#4A4444;
 }
 .nav-item a:hover,.nav-item a.active {
-    border-bottom-color: #49CBCD;
+    border-bottom-color: #0099FF;
 	color: #fff;
-	background: #49CBCD;
+	background: #0099FF;
 }
 .nav-mobile {
     display: none;
@@ -103,9 +99,10 @@ body {
 }
 /*---start-top-slider----*/
 .slider{
-	background:#49CBCD url(../images/bg2.png) no-repeat;
+	background:url(../images/bg2.gif) no-repeat;
 	background-size: 100% 100%;
 }
+
 /*---end-top-slider----*/
 /***************start-service************/
 .service-grids{
@@ -172,6 +169,7 @@ body {
 /***************start-portfolio************/
 .portfolio_main{
 	background: #eee;
+	padding-bottom: 10%;
 }
 .heading_h {
 	text-align: center;
@@ -284,8 +282,8 @@ span.rollover {
 	-webkit-transition: -webkit-transform 1s;
 	background: url(../images/puls.png) center center no-repeat rgba(0, 0, 0, 0.87);
 	cursor: pointer;
-	height:150px;
-	width: 150px;
+	height:220px;
+	width: 220px;
 	position: absolute;
 	z-index: 10;
 	opacity: 0;
@@ -300,7 +298,7 @@ span.rollover {
 	transition: all 0.3s ease-out;
 }
 span.rollover:hover {
-	opacity: 0.7;
+	opacity: 0.3;
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
 	-ms-transition: all 0.3s ease-out;
@@ -371,13 +369,15 @@ color:#C0B9CD;
 /*************end-slider**********/
 /************start-contact*********/
 .contact{
-	background:#000 url(../images/cbg.png) no-repeat;
+	background: #000000;
+	padding-top: 5%;
+	/*background:#000 url(../images/laptop.gif) no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
  	background-size: cover;
  	background-position: center;
- 	background-size: 100% 100%;
+ 	background-size: 100% 100%;*/
 	
 }	
 .form{
@@ -394,7 +394,6 @@ color:#C0B9CD;
 .para-contact p{
 	font-size:0.990em;
 	color:#666666;
-	line-height:2em;
 	font-family : 'Open Sans', sans-serif;
 	margin-top:0.5em;
 }
@@ -419,7 +418,7 @@ color:#C0B9CD;
 .get-intouch-left-address p a:hover{
 	color:#fff;
 }
-.contact input[type="text"],.contact textarea{
+.contact input[type="text"],.contact input[type="email"],.contact textarea{
 	padding: 10px;
 	width: 88%;
 	margin: 2% 1%;
@@ -775,7 +774,7 @@ li.google a span {
 li.google a span:hover {
 	opacity:0.8;
 }
-.button input[type="submit"],.send_button input[type="submit"] {
+.button input[type="submit"],.send_button input[type="submit"], .button1 {
 	cursor: pointer;
 	color: #FFF;
 	font-size: 0.99em;
@@ -787,7 +786,7 @@ li.google a span:hover {
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	-o-border-radius: 3px;
-	background: #49CBCD;
+	background: #0099FF;
 	padding: 10px 20px;
 	border: none;
 	font-family: 'Open Sans', sans-serif;
@@ -1149,3 +1148,10 @@ ul.sidebar_1 li {
 	width: 220px;
 	}
 }
+
+.subtitulos{
+	font-weight: bold;
+	font-size: 30px;
+	color: #0099FF;
+}
+

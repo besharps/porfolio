@@ -49,20 +49,20 @@ if(!defined('WAP'))
 
 if (WIRELESS_PROTOCOL == 'wap')
 	  {
-$browser_t = "mobile";
+$browser_t ="web"; //"mobile";
 	  }
 elseif (WIRELESS_PROTOCOL == 'wap2')
 	  {
 
 
-$browser_t = "mobile";
+$browser_t ="web"; // "mobile";
 
 
 	  }
 elseif (WIRELESS_PROTOCOL == 'imode')
 	  {
 	
-$browser_t = "mobile";
+$browser_t ="web"; // "mobile";
 
 	  }
 	  elseif (WIRELESS_PROTOCOL == 'iphone')
@@ -135,7 +135,7 @@ if (strpos(strtolower($_SERVER['HTTP_USER_AGENT']),'windows')>0) {
 if($mobile_browser>0){
    // do something wap
 
-$browser_t = "mobile";
+$browser_t ="web"; // "mobile";
 
 }
 // non-mobile
@@ -199,7 +199,7 @@ if (strpos(strtolower($_SERVER['HTTP_USER_AGENT']),'windows')>0) {
 if($mobile_browser>0){
    // do something wap
  
-$browser_t = "mobile";
+$browser_t ="web"; // "mobile";
 
 }
 // non-mobile

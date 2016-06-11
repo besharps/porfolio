@@ -10,7 +10,6 @@
 	-ms-transition: background-position 1s ease-out 0.3s;
 	transition: background-position 1s ease-out 0.3s;
 	text-align:center;
-	/*border: 2px dotted yellow;*/
 }
 .da-slide{
 	position: absolute;
@@ -102,8 +101,7 @@
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-o-border-radius:5px;
-
-		background-color: #AAAAAA;
+	background-color: #AAAAAA;
 }
  .da-link:hover{
  	background-color: #DDDDDD; /*#296E6F;*/

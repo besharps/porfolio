@@ -3,19 +3,20 @@
 <html>
 	<head>
 		<title>Be Sharps</title>
+		
 		<link rel="shortcut icon" href="favicon.png" type="image/png"/> 
 		<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 		<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet" type="text/css"/>
-		<link href="web/css/style.css" rel="stylesheet" type="text/css" media="all" />
-		<link rel="stylesheet" type="text/css" href="web/css/magnific-popup.css"/>
-		<link rel="stylesheet" type="text/css" href="web/css/slider.css" />
-		<script src="web/js/jquery.min.js"></script>
-		<script type="text/javascript" src="web/js/modernizr.custom.28468.js"></script>
-		<script type="text/javascript" src="web/js/jquery.cslider.js"></script>
-		<script type="text/javascript" src="web/js/leerget.js"></script>
+		<link href="smartphone/css/style.css" rel="stylesheet" type="text/css" media="all" />
+		<link rel="stylesheet" type="text/css" href="smartphone/css/magnific-popup.css"/>
+		<link rel="stylesheet" type="text/css" href="smartphone/css/slider.css" />
+		<script src="smartphone/js/jquery.min.js"></script>
+		<script type="text/javascript" src="smartphone/js/modernizr.custom.28468.js"></script>
+		<script type="text/javascript" src="smartphone/js/jquery.cslider.js"></script>
+		<script type="text/javascript" src="smartphone/js/leerget.js"></script>
 		<script src="sweetalert/dist/sweetalert.min.js"></script> 
 		<link rel="stylesheet" type="text/css" href="sweetalert/dist/sweetalert.css">
 		<link rel="stylesheet" type="text/css" href="sweetalert/themes/twitter/twitter.css">
@@ -45,7 +46,7 @@
 		        	<!--<a href="#" id="navbtn">Nav Menu</a>-->
 		       		<div class="clear"> </div>
 		     	</header><!-- end topnav -->
-		      	<script type="text/javascript"  src="web/js/menu.js"></script>
+		      	<script type="text/javascript"  src="smartphone/js/menu.js"></script>
 		    </div>
 			</div>
 		</div>
@@ -137,7 +138,7 @@
 				<!--start-mfp -->	
 				<div id="small-dialog1" class="mfp-hide">
 					<div class="pop_up">
-					    <img src="web/images/BeWeather-med651x489.png"/>
+					    <img src="smartphone/images/BeWeather-med651x489.png"/>
 					   	<h2>B# Weather</h2>
 						<p>Aplicación web de pronóstico climático actual, diario o por horas, utilizando la geolocalización o la ubicación que usuario indique.</p>
 						<p class="pop_p">HTML5, CSS, Javascript, JQuery, AJAX, manejo de APIs<br/>
@@ -146,7 +147,7 @@
 				</div>
 				<div id="small-dialog2" class="mfp-hide">
 				    <div class="pop_up2">
-					    <img src="web/images/BeNutri-med650x488.png"/>
+					    <img src="smartphone/images/BeNutri-med650x488.png"/>
 					   	<h2>Nutrisite</h2>
 						<p>Contador de calorias online, utilidad para llevar un control de lo consumido y lo gastado diariamente hacia un objetivo determinado.</p>
 						<p class="pop_p">	Bootstrap, PHP, MySql.<br/>
@@ -155,16 +156,16 @@
 				</div>
 				<div id="small-dialog3" class="mfp-hide">
 				    <div class="pop_up3">
-					   	<img src="web/images/BeCupCake-med650x488.png"/>
+					   	<img src="smartphone/images/BeCupCake-med650x488.png"/>
 					   	<h2>Cupcake house </h2>
 						<p>	Catálogo Online de productos - emprendimiento de fabricacion y comercialización de Cupcakes.</p>
 						<p class="pop_p">HTML5, CSS3, Javascript, PHP.<br/>
-						Link: <a target="blank" href="http://mmlabs.com.ar/cupcakehouse/">http://www.cupcakehouse.com.ar/</a></p>
+						Link: <a target="blank" href="http://www.cupcakehouse.com.ar/">http://www.cupcakehouse.com.ar/</a></p>
 					</div>
 				</div>
 				<div id="small-dialog4" class="mfp-hide">
 				    <div class="pop_up4">
-					   	<img src="web/images/BeMAG-med650x485.png"/>
+					   	<img src="smartphone/images/BeMAG-med650x485.png"/>
 					   	<h2>MAGennasi consultores </h2>
 						<p>	Consultores en Neurociencia - Blog y Portal de noticias.</p>
 						<p class="pop_p"> WordPress template, HTML, PHP, MySql<br/>
@@ -174,7 +175,7 @@
 				<div id="small-dialog5" class="mfp-hide">
 				    <div class="pop_up5">
 					   	<img src="web/images/BeKatib-med651x489.png"/>
-					   	<h2>Katib rodados </h2>
+					   	<h2> Katib rodados </h2>
 						<p> Sito web Fabricación de rodados para niños entre otros.. </p>
 						<p class="pop_p"> WordPress template, HTML, PHP, MySql<br/>
 						Link: <a target="blank" href="http://besharps.esy.es/katib-test/"> besharps.es/katib </a>
@@ -193,6 +194,7 @@
 				    <div class="pop_up7">
 					   	 <h2>Desarrollador</h2>
 					   	 <p class="pop_p"><a href="mailto:martinmuelas@gmail.com"> <image src="web/images/gmail.png" alt="logo-gmail" class="gmail" /> martinmuelas@gmail.com</a> </p> 
+						 </p>
 					</div>
 				</div>
 				<div id="small-dialog8" class="mfp-hide">
@@ -277,7 +279,7 @@
 				</div>
 				<!--end container -->
 
-				<script src="web/js/jquery.magnific-popup.js" type="text/javascript"></script>
+				<script src="smartphone/js/jquery.magnific-popup.js" type="text/javascript"></script>
 
 				<script>
 					$(document).ready(function() {
@@ -414,8 +416,8 @@
 		</div>
 
 		<!-- scroll_top_btn -->
-		<script type="text/javascript" src="web/js/move-top.js"></script>
-		<script type="text/javascript" src="web/js/easing.js"></script>
+		<script type="text/javascript" src="smartphone/js/move-top.js"></script>
+		<script type="text/javascript" src="smartphone/js/easing.js"></script>
 	   
 	    <script type="text/javascript">
 			$(document).ready(function() {
@@ -508,7 +510,6 @@
 
 
 			}
-			
 			
 		?>
 
